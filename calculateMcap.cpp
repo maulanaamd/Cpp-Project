@@ -7,7 +7,6 @@ void line(){
     cout << "-----------------------------------------"<<endl;
 }
 int main(){
-
     line();
     cout << "|| Calculating Bitcoin Mcap 19 October ||"<<endl;
     line();
@@ -15,9 +14,7 @@ int main(){
     // Deklarasi Variabel harga terbaru dan coin beredar
     double currentPrice;
     double circulatingSupply;
-
-
-
+    
     // Assignment nilai ke dalam variabel
 
     currentPrice = 107.000;        // 107 usd harga bitcoin pada tanggal 19 Oktober
@@ -32,3 +29,4 @@ int main(){
 
     return 0;
 }
+
